@@ -1,0 +1,20 @@
+using System;
+
+public class SaludoPersonalizado
+{
+    public static void Main(string[] args)
+    {
+        // Solicita al usuario que ingrese su nombre
+        Console.Write("Por favor, introduce tu nombre: ");
+
+        // Lee el nombre ingresado por el usuario
+        string nombre = Console.ReadLine();
+
+        // Muestra el saludo personalizado
+        Console.WriteLine($"¡Hola, {nombre}!");
+
+        // Opcional: espera a que el usuario presione una tecla antes de cerrar la consola
+        Console.WriteLine("\nPresiona cualquier tecla para salir.");
+        Console.ReadKey();
+    }
+}
