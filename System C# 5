@@ -1,0 +1,22 @@
+using System;
+
+public class DiferenciaNumeros
+{
+    public static void Main(string[] args)
+    {
+        // Define los dos números
+        int numero1 = 321;
+        int numero2 = 213;
+
+        // Calcula la diferencia (resta)
+        int resultado = numero1 - numero2;
+
+        // Muestra el resultado en la consola
+        Console.WriteLine($"Calculando la diferencia entre {numero1} y {numero2}...");
+        Console.WriteLine($"El resultado de la resta es: {resultado}");
+
+        // Opcional: Pausa la consola para que puedas ver el resultado antes de que se cierre
+        Console.WriteLine("\nPresiona cualquier tecla para salir.");
+        Console.ReadKey();
+    }
+}
